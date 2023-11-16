@@ -24,13 +24,12 @@ public class Main {
 
         System.out.print(f1 + " " + f2);
 
-        for(int i = 0; i < 8; i++) {
+        for (int i = 0; i < 8; i++) {
             int f3 = f1 + f2;
             System.out.print(" " + f3);
             f1 = f2;
             f2 = f3;
         }
-
-        }
     }
+}
 
